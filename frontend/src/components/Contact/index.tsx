@@ -1,4 +1,6 @@
 import imgContato from "assets/IMG/contato.png";
+import 'assets/CSS/styles.css';
+
 const Contact = () => {
     return (
         <section id="contact" className="contact">

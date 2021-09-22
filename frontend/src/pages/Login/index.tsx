@@ -8,6 +8,9 @@ import {
   FiFacebook,
 } from "react-icons/fi";
 import Footer from "components/Footer";
+import { Redirect } from "react-router";
+import 'assets/CSS/style-login.css';
+
 
 const Login = () => {
   return (
@@ -57,17 +60,17 @@ const Login = () => {
             <div className="icons-svg">
               <a href="#">
                 <i>
-                  <FiFacebook />
+                  <FiFacebook size="36px"/>
                 </i>
               </a>
               <a href="#">
                 <i>
-                  <FiChrome />
+                  <FiChrome size="36px" />
                 </i>
               </a>
               <a href="#">
                 <i>
-                  <FiLinkedin />
+                  <FiLinkedin size="36px" />
                 </i>
               </a>
             </div>

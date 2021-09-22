@@ -1,5 +1,7 @@
 import imgSPACEACADEMY from "assets/IMG/SPACEACADEMY.png";
 import { Link } from "react-router-dom";
+import 'assets/CSS/styles.css';
+
 const NavBar = () => {
   return (
     <nav>
@@ -18,7 +20,9 @@ const NavBar = () => {
         <Link to="/Login">
           <a href="#">Login</a>
         </Link>
+        <Link to="/Register">
         <a href="#">Registrar</a>
+        </Link>
       </ul>
     </nav>
   );

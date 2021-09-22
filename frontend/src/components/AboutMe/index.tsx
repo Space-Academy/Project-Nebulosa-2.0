@@ -1,4 +1,5 @@
 import imgFogueteSobre from "assets/IMG/foguete-sobre.png";
+import 'assets/CSS/styles.css';
 
 const AboutMe = () => {
     return (
