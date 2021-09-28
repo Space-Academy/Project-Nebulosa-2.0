@@ -1,5 +1,9 @@
 import NavBar from "components/NavBar";
-import imgPlanet from "assets/IMG/planet.png";
+import imgAstronaut from "assets/IMG/astronauta.png";
+import Footer from "components/Footer";
+
+import './style.css';
+
 import {
   FiUser,
   FiLock,
@@ -7,16 +11,14 @@ import {
   FiChrome,
   FiFacebook,
 } from "react-icons/fi";
-import Footer from "components/Footer";
-import { Redirect } from "react-router";
-import 'assets/CSS/style-login.css';
+import { Link } from "react-router-dom";
 
 
 const Login = () => {
   return (
     <>
       <NavBar />
-      <main>
+      <main className="main-login">
         <div className="form-container">
           <h2>Login</h2>
           <form action="">
@@ -45,7 +47,7 @@ const Login = () => {
             </div>
 
             {/* Checkbox */}
-            <div className="input-field">
+            <div className="input-field-checkbox">
               <input type="checkbox" name="checkbox" id="checkbox" />{" "}
               <span>Eu aceito os termos de responsabilidade</span>
             </div>
@@ -77,16 +79,18 @@ const Login = () => {
           </div>
         </div>
 
-        {/*Img PLanet */}
+        {/*Img Astronauta */}
         <div className="img-container">
-          <img src={imgPlanet} alt="img-planet" />
+          <img src={imgAstronaut} alt="img-astronaut" />
         </div>
 
         {/* Register */}
         <div className="register">
           <div className="text">
             <h3>Caso não tenha conta, registre aqui!</h3>
-            <input type="submit" value="Registrar" />
+            <Link to="/Register">
+              <input type="submit" value="Registrar" />
+            </Link>
           </div>
           <p>
             Esqueceu a senha?{" "}

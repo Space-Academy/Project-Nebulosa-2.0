@@ -1,5 +1,5 @@
 import imgContato from "assets/IMG/contato.png";
-import 'assets/CSS/styles.css';
+import './style.css';
 
 const Contact = () => {
     return (

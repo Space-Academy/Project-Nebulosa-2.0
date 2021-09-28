@@ -1,7 +1,7 @@
 import imgFinances from "assets/IMG/finances.png";
 import imgTecnologia from "assets/IMG/tecnologia.png";
 import imgEmpreendimento from "assets/IMG/empreendimento.png";
-import 'assets/CSS/styles.css';
+import './style.css';
 
 const Trails = () => {
     return (

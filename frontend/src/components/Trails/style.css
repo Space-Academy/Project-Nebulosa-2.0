@@ -1,0 +1,48 @@
+.trilhas {
+    text-align: center;
+    margin: 150px 0;
+    padding: 0 100px;
+}
+
+.trilhas p {
+    font-size: 20px;
+    font-weight:300;
+    line-height: 30px;
+}
+
+.trilha-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 60px auto 0;
+}
+
+.trilhas .trilha-container .trilha-card {
+    max-width: 360px;
+    background: var(--color-bg-opacity);
+    border: 1px solid var(--color-write);
+    color: var(--color-write);
+    border-radius: 16px;
+    padding: 20px 20px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.trilhas .trilha-container .trilha-card h2 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+  
+.trilhas .trilha-container .trilha-card img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+  
+.trilha-card + .trilha-card {
+    margin-left: 10px;
+}

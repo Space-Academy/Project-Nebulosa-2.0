@@ -1,6 +1,6 @@
 import imgFoguete from "assets/IMG/foguete.png";
 import { Link } from "react-router-dom";
-import 'assets/CSS/styles.css';
+import './style.css';
 
 const Starter = () => {
     return (

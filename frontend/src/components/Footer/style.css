@@ -1,0 +1,33 @@
+.footer {
+    background: var(--color-footer);
+    text-align: center;
+    padding: 100px 0;
+    color: var(--color-write);
+}
+
+.footer .footer-container {
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.footer .footer-container p span a{
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+
+.footer .footer-container .title-footer  {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--color-write);
+}
+
+.footer .footer-container .title-footer span {
+    color: var(--color-secundary);
+    font-size: 30px;
+}
+
+.footer .footer-container h4 {
+    color: var(--color-primary);
+}

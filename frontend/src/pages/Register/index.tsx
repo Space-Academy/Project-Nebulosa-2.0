@@ -1,6 +1,8 @@
 import Footer from "components/Footer";
 import NavBar from "components/NavBar";
-import imgPlanet from "assets/IMG/planet.png";
+import imgAstronaut from "assets/IMG/astronauta.png";
+import './styles.css';
+
 import {
     FiUser,
     FiLock,
@@ -9,47 +11,46 @@ import {
     FiFacebook,
     FiMail,
   } from "react-icons/fi";
-  import 'assets/CSS/style-register.css';
 
 const Register = () => {
     return (
         <>
         <NavBar />
-        <main>
-      <div className="form-container">
-        <h2>Registro</h2>
-        <form action="">
+        <main className="register">
+          <div className="form-container-register">
+            <h2>Registro</h2>
+            <form action="">
 
            {/*<!-- Name -->*/}
-            <div className="input-field">
+            <div className="input-field-register">
                 <input type="text" name="text" id="text" placeholder="Digite seu Nome" />
                 <FiUser />
-                <div className="underline"></div>
+                <div className="underline-register"></div>
             </div>
 
             {/*<!-- Email -->*/}
-            <div className="input-field">
+            <div className="input-field-register">
                 <input type="text" name="text" id="text" placeholder="Digite seu Email" />
                 <FiMail />
-                <div className="underline"></div>
+                <div className="underline-register"></div>
             </div>
 
             {/*<!-- Password -->*/}
-            <div className="input-field">
+            <div className="input-field-register">
               <input type="password" name="password" id="password" placeholder="Digite sua Senha" />
               <FiLock />
-              <div className="underline"></div>
-          </div>
+              <div className="underline-register"></div>
+            </div>
 
-          {/*<!-- Password -->*/}
-          <div className="input-field">
-              <input type="password" name="password" id="password" placeholder="Confirme sua Senha" />
-              <FiLock />
-              <div className="underline"></div>
-          </div>
+            {/*<!-- Password -->*/}
+            <div className="input-field-register">
+                <input type="password" name="password" id="password" placeholder="Confirme sua Senha" />
+                <FiLock />
+                <div className="underline-register"></div>
+            </div>
 
             {/*<!-- Checkbox -->*/}
-            <div className="input-field">
+            <div className="input-field-register">
                 <input type="checkbox" name="checkbox" id="checkbox" /> <span>Eu aceito os termos de responsabilidade</span> 
             </div>
             
@@ -58,7 +59,7 @@ const Register = () => {
         </form>
 
         {/*<!-- Icons Social Media -->*/}
-        <div className="social-media">
+        <div className="social-media-register">
           <h3>ou</h3>
             <div className="icons-svg">
               <a href="#"> <FiFacebook size="36px" /></a>
@@ -69,8 +70,8 @@ const Register = () => {
       </div>
       
       {/*<!-- Img Planet -->*/}
-      <div className="img-container">
-        <img src={imgPlanet} alt="img-planet"/>
+      <div className="img-container-register">
+        <img src={imgAstronaut} alt="img-Astronaut"/>
       </div>
       
     </main>        
