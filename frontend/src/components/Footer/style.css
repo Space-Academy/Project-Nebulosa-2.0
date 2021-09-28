@@ -2,10 +2,13 @@
     background: var(--color-footer);
     text-align: center;
     padding: 100px 0;
+    width: 100%;
     color: var(--color-write);
+    position: absolute;
 }
 
 .footer .footer-container {
+    position: relative;
     width: 100%;
     margin: auto;
     justify-content: space-between;

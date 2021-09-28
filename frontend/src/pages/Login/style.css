@@ -55,7 +55,8 @@ main.main-login {
     height: calc(100vh - var(--menu-height));
     display: flex;
     align-items: center;
-
+    margin: 0 auto;
+    width: 50%;
 }
 
 main.main-login .form-container {
@@ -65,7 +66,6 @@ main.main-login .form-container {
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 14px;
-    margin-left: auto;
 }
 
 main.main-login h2 {
@@ -216,7 +216,7 @@ main.main-login .img-container img{
     position: relative;
     max-width: 900px;
     max-height: 1150px;
-    margin-top: -130px;
+    margin: 50px 0 0 100px;
 }
 /* --------------------------------------------------------------------------- */
 

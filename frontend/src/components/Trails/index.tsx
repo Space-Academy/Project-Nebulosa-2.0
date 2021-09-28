@@ -20,14 +20,14 @@ const Trails = () => {
             {/*Tecnologia*/}
             <div className="trilha-card">
                 <img src={imgTecnologia} alt="Ícone de Tecnologia" />
-                <h2>Educação Financeira</h2>
+                <h2>Tecnologia</h2>
                 <p> Aprenda Algoritmos e Lógica de Programação e muito mais sobre tecnologia de forma simples com vídeos aulas bem descontraídas.</p>
             </div>
 
             {/*Empreendimento*/}
             <div className="trilha-card">
                 <img src={imgEmpreendimento} alt="Ícone de Empreendimento" />
-                <h2>Educação Financeira</h2>
+                <h2>Empreendimento</h2>
                 <p> Aprenda o processo de iniciativa de implementar novos negócios
                     ou mudanças em empresas já existentes. </p>
             </div>

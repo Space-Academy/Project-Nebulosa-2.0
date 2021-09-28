@@ -47,7 +47,6 @@ p {
     margin-bottom: -10px;
 }
 
-
 /* nav ---------------------------------------------*/
 
 /* Register -----------------------------------------------*/
@@ -56,17 +55,17 @@ main.register {
     height: calc(100vh - var(--menu-height));
     display: flex;
     align-items: center;
-    
-    z-index: 99;
+    margin: 0 auto;
+    width: 50%;
 }
 
 main.register .form-container-register {
     background: rgba(255, 255, 255, 0.88);
+    width: 350px;
     min-height: 55vh;
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 14px;
-    /* margin-left: auto; */
 }
 
 main.register h2 {
@@ -88,12 +87,6 @@ main.register h2::before {
     left: 0;
     border-radius: 8px;
     background: linear-gradient(45deg, #001434, #020e44 );
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    
 }
 
 .input-field-register {
@@ -206,10 +199,11 @@ main.register .icons-svg-register a:first-child svg {
 /* Img Planet ---------------------------------------------------------------- */
 main.register .img-container-register img{
     position: absolute;
-    width: 1000px;
+    width: 550px;
     max-width: 900px;
     max-height: 1150px;
-    margin-top: -150px;
+    margin-top: -250px;
+    margin-left: 80px;
 }
 /* --------------------------------------------------------------------------- */
 
