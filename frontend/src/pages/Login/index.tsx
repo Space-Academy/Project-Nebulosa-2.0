@@ -95,7 +95,9 @@ const Login = () => {
           <p>
             Esqueceu a senha?{" "}
             <span>
-              <a href="#"> Clique aqui!</a>
+              <Link to="/ForgotPassword">
+              <a> Clique aqui!</a>
+              </Link>
             </span>
           </p>
         </div>
