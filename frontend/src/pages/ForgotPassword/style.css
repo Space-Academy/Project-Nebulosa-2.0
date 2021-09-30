@@ -55,8 +55,8 @@ main.main-ForgotPassword {
     height: calc(100vh - var(--menu-height));
     display: flex;
     align-items: center;
-    margin: 0 auto;
-    width: 50%;
+    width: 100%;
+    justify-content: center;
 }
 
 main.main-ForgotPassword .form-container-ForgotPassword {

@@ -49,7 +49,7 @@ const Register = () => {
               </div>
 
               {/*<!-- Checkbox -->*/}
-              <div className="input-field-register">
+              <div className="input-field-register-checkbox">
                   <input type="checkbox" name="checkbox" id="checkbox" /> <span>Eu aceito os termos de responsabilidade</span> 
               </div>
               
