@@ -53,7 +53,9 @@ const Login = () => {
             </div>
 
             {/* Button */}
-            <input type="submit" value="Continuar" />
+            <Link to="/PanelHome">
+              <input type="submit" value="Continuar" />
+            </Link>
           </form>
 
           {/*Icons Social Media */}

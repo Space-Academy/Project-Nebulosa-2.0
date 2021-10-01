@@ -1,7 +1,9 @@
-import ForgotPassword from "pages/ForgotPassword";
 import Home from "pages/Home";
 import Login from "pages/Login";
+import ForgotPassword from "pages/ForgotPassword";
 import Register from "pages/Register";
+import PanelHome from "pages/PanelHome";
+
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 
 const Routes = () => {
@@ -19,6 +21,9 @@ const Routes = () => {
             </Route>
             <Route path="/ForgotPassword" exact>
                 <ForgotPassword />                 
+            </Route>
+            <Route path="/PanelHome" exact>
+                <PanelHome />
             </Route>
         </Switch>
         </BrowserRouter>

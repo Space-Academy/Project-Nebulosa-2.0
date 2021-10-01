@@ -11,7 +11,7 @@ const NavBarPanel = () => {
       </Link>
       <ul>
         <Link to="/Profile">
-          <span>Perfil</span>
+          <a>Perfil</a>
         </Link>
         <FiUser size="25px" color="#fff" />
         
@@ -21,6 +21,7 @@ const NavBarPanel = () => {
         <FiLogOut size="25px" color="#fff" />
       </ul>
     </nav>
+    
   );
 };
 
