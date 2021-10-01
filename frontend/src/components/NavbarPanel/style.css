@@ -1,53 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-nav {
+:root {
+    --color-primary: #043668;
+    --color-secundary: #056ECF;
+    --color-write: #FEFCFB;
+    --color-navbar: #051C39;
+
+    --menu-height: 65px;
+}
+
+
+nav#panel {
     display: flex;
     align-items: center;
     justify-content: space-between;
     
     height: var(--menu-height);
-    background: var(--color-primary);
-    padding: 0 100px;
+    background: var(--color-navbar);
+    padding: 0 50px;
     position: sticky;
     top: 0;
-
+    
     z-index: 99;
 }
 
-nav img {
+nav#panel img {
+    margin-top: 8px;
     height: 30px;
 }
 
-nav ul {
+nav#panel ul .menu-icons{
     width: 100%;
     display: flex;
     justify-content: right;
-    
-  }
-  
-nav ul a {
-    font-size: 20px;
-    font-weight: 600;
-    color: var(--color-write);
+}
 
+nav#panel ul .menu-icons a {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-write);
+    margin: 0 -13px 0 -13px;
     text-decoration: none;
-    padding: 0 25px;
     transition: all 300ms ease;
 }
-  
-nav ul a svg {
-    display: none;
-}
 
-nav ul a:hover {
+nav#panel ul .menu-icons a:hover {
     color: var(--color-secundary);
     cursor: pointer;
 }
 
-nav ul a:nth-child(4) {
-    margin-right: 70px;
+nav#panel ul .menu-icons span {
+    margin-left: 3vh;
+    border-right: 3px solid var(--color-secundary);
 }
 
-nav ul a:nth-child(5) {
-    border-right: 3px solid var(--color-secundary);
+nav#panel ul .menu-icons svg {
+   height: 30px;
+   width: 30px;
+   color: var(--color-write);
+}
+
+nav#panel ul .menu-icons svg:hover {
+    color: var(--color-secundary);
+    cursor: pointer;
 }

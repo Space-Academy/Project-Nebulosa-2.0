@@ -12,6 +12,7 @@ import {
   FiFacebook,
 } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import PanelHome from "pages/PanelHome";
 
 
 const Login = () => {
@@ -25,8 +26,8 @@ const Login = () => {
             {/* Name */}
             <div className="input-field">
               <input
-                type="text"
-                name="text"
+                type="username"
+                name="username"
                 id="text"
                 placeholder="Entrar com seu Login"
               />
@@ -54,7 +55,7 @@ const Login = () => {
 
             {/* Button */}
             <Link to="/PanelHome">
-              <input type="submit" value="Continuar" />
+              <input type="submit" value="Continuar"/>
             </Link>
           </form>
 
@@ -108,4 +109,5 @@ const Login = () => {
     </>
   );
 };
-export default Login;
+
+export default Login
