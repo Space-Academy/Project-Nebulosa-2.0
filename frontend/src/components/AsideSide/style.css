@@ -92,4 +92,71 @@ aside .linha-perfil {
     border-radius: 50px;
 }
 
+/* Top Five -------------------- */
+
+aside .top-five h2{
+    font-size: 25px;
+    color: var(--color-write);
+    font-weight: 600;
+    text-align: left;
+}
+
+aside .top-five .top-placements {
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+
+aside .top-five .top-placements .img-top {
+    align-items: center;
+    display: flex;
+    color: var(--color-write);
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+aside .top-five .top-placements .img-top p {
+    margin-right: 1px;
+    font-weight: 500;
+}
+
+aside .top-five .top-placements .content-perfil {
+    color: var(--color-write);
+    margin-top: 15px;
+    text-align: left;
+}
+
+aside .top-five .top-placements .content-perfil h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+aside .top-five .top-placements .content-perfil h5 {
+    margin: 0;
+    font-weight: 400;
+}
+
+aside .top-five .top-placements .content-perfil .progress {
+    height: 8px;
+    background-color: var(--color-write);
+    position: relative;
+    border-radius: 0 30px 30px 0;
+    margin-top: 3px;
+    width: 19vh;
+}
+
+aside .top-five .top-placements .content-perfil .progress .progress-bar{
+    position: absolute;
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+    background-color: var(--color-secundary);
+    animation: progress-animation 6s both;
+}
+
+@keyframes progress-animation{
+    0% { width: 0%; }
+    
+    100% { width: 70%}
+}
 
