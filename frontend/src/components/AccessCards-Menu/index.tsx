@@ -4,4 +4,5 @@ const AccessCardsMenu = () => {
         </>
     );
 };
+
 export default AccessCardsMenu;

@@ -4,8 +4,12 @@
 }
 
 .about-me .container {
-    width: 50%;
+    width: 100%;
     padding-right: 50px;
+}
+
+.about-me .container h1 {
+    margin-bottom: 10px;
 }
 
 .about-me .container p {
@@ -13,13 +17,13 @@
 }
 
 .about-me .img-container {
-    width: 50%;
+    width: 80%;
     text-align: center;
     position: relative;
 }
   
 .about-me .img-container img {
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
 }

@@ -59,7 +59,7 @@ const Register = () => {
 
               {/*<!-- Icons Social Media -->*/}
               <div className="social-media-register">
-                <h3>ou</h3>
+                {/* <h3>ou</h3> */}
                   <div className="icons-svg-register">
                     <a href="#"> <FiFacebook size="36px" /></a>
                     <a href="#"> <FiChrome size="36px" /></a>

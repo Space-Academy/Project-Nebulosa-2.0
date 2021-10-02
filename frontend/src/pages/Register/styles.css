@@ -13,6 +13,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -55,14 +57,14 @@ main.register {
     height: calc(100vh - var(--menu-height));
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 65%;
     justify-content: center;
 }
 
 main.register .form-container-register {
     background: rgba(255, 255, 255, 0.88);
     max-width: 700px;
-    min-height: 55vh;
+    max-height: 70vh;
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 14px;
@@ -70,7 +72,7 @@ main.register .form-container-register {
 
 main.register h2 {
     font-weight: 600;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     position: relative;
     font-weight: 600;
     font-size: 25px;
@@ -82,7 +84,7 @@ main.register h2::before {
     content: '';
     position: absolute;
     height: 4px;
-    width: 25px;
+    width: 30px;
     bottom: 3px;
     left: 0;
     border-radius: 8px;
@@ -152,7 +154,8 @@ form .input-field-register svg {
 
 /* Buttom --------------------------------------------------------------------- */
 form input[type="submit"] {
-    margin-top: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
     width: 100%;
     padding: 0.7rem;
     background: linear-gradient(90deg, #06274E 12.19%, #033A6E 99.21%);
@@ -174,14 +177,16 @@ form input[type="submit"]:hover {
 
 /* Icons Social Media -------------------------------------------------------- */
 main.register .form-container-register .social-media-register {
-    text-align: center;
+    /* text-align: center; */
+    align-items: center;
 }
-
+/* 
 main.register .form-container-register .social-media-register h3{
     color: var(--color-primary);
     font-size: 15px;
+    margin: 10px 0 10px 0;
 
-}
+} */
 
 main.register .icons-svg-register {
     display: flex;
@@ -207,11 +212,11 @@ main.register .icons-svg-register a:first-child svg {
 /* Img Planet ---------------------------------------------------------------- */
 main.register .img-container-register img{
     position: absolute;
-    width: 550px;
+    width: 300px;
     max-width: 900px;
     max-height: 1150px;
     margin-top: -250px;
-    margin-left: 80px;
+    margin-left: 150px;
 }
 /* --------------------------------------------------------------------------- */
 

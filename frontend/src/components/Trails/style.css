@@ -4,6 +4,10 @@
     padding: 0 100px;
 }
 
+.trilhas h1 {
+    margin-bottom: 10px;
+}
+
 .trilhas p {
     font-size: 20px;
     font-weight:300;
@@ -14,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   max-width: 1200px;
-  margin: 60px auto 0;
+  margin: 40px auto 0;
 }
 
 .trilhas .trilha-container .trilha-card {

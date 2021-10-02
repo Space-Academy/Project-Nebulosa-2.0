@@ -6,7 +6,7 @@ import './style.css';
 const Trails = () => {
     return (
         <section id="trailmix" className="trilhas">
-      <h1 className="title-blue">Trilhas</h1>
+        <h1 className="title-blue">Trilhas</h1>
         <p>Não acreditamos em educação sem diversão. Por isso, nossos cursos são desenhados como verdadeiras experiências de entretenimento e conduzidos por professores que são mestres em viver o que estão ensinando. De maneira rápida e prática, habilidades para a vida.</p>
 
         <div className="trilha-container">
