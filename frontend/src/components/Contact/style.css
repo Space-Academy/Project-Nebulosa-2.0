@@ -37,7 +37,7 @@
     background: var(--color-bg-opacity);
     width: 500px;
     height: 70px;
-    padding: 0 0.5rem;
+    padding: 2em;
     margin-top: 1rem;
     outline: none;
     color: rgba(166, 166, 166);
@@ -50,7 +50,7 @@
     background: var(--color-bg-opacity);
     width: 500px;
     height: 160px;
-    padding: 0 0.5rem;
+    padding: 2em;
     margin-top: 1rem;
     outline: none;
     color: rgba(166, 166, 166);
@@ -84,7 +84,9 @@
 
 .contact .img-container img{
     position: absolute;
-    width: 50%;
+    width: 25%;
     height: 60%;
-    object-fit: cover;   
+    /* object-fit: cover;    */
+    margin-top: 70px;
+    margin-left: 200px;
 }

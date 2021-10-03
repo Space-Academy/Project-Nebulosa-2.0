@@ -1,3 +1,5 @@
+
+
 header {
     height: calc(100vh - var(--menu-height));
     display: flex;
@@ -6,7 +8,8 @@ header {
 
 header .container {
     height: fit-content;
-    padding: 0  100px;
+    padding: 0 100px;
+   
 }
 
 header .container button {
@@ -20,6 +23,8 @@ header .container .title-write {
     -1px 1px 0px #000,                    
      1px -1px 0px #000,                  
      1px 0px 0px #000;
+
+     margin-bottom: 10px;
 }
 
 header .container .title-write {
@@ -32,9 +37,9 @@ header .container .title-write span {
 }
 
 header .container p {
-    margin-top: -25px;
     font-weight: 400;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 header .container button {
@@ -54,4 +59,8 @@ header .container button:hover {
     background: rgba(255, 255, 255, 0) ;
     border: 1px solid var(--color-secundary);
     color: var(--color-secundary);
+}
+
+.image-foguete img {
+    padding: 100px;
 }

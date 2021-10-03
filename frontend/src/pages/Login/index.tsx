@@ -61,7 +61,7 @@ const Login = () => {
 
           {/*Icons Social Media */}
           <div className="social-media">
-            <h3>ou</h3>
+            {/* <h3>ou</h3> */}
             <div className="icons-svg">
               <a href="#">
                 <i>

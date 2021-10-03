@@ -97,12 +97,7 @@ const AsideSide = () => {
                         </div>
                         </div>
                     </div>
-
-
-
                 </div>
-
-
             </aside>
         </main>
     )
