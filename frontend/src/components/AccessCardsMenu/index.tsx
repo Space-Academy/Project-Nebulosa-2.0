@@ -38,7 +38,7 @@ const AccessCardsMenu = () => {
       {/*Cards Bottom*/}
       <div className="cards-bottom">
         <div className="card-visited">
-          <p>TRILHAS MAIS VISITADAS</p>
+          <h4>TRILHAS MAIS VISITADAS</h4>
 
           <div className="content-visited">
             <div className="visited-container">
@@ -89,7 +89,7 @@ const AccessCardsMenu = () => {
         </div>
 
         <div className="card-stars">
-          <p>TRILHAS COM MAIS ESTRELAS</p>
+          <h4>TRILHAS COM MAIS ESTRELAS</h4>
           <div className="content-stars">
             <div className="stars-container">
               <div className="top-three">

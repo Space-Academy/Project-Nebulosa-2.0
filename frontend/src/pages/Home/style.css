@@ -1,0 +1,22 @@
+:root {
+    --color-primary: #043668;
+    --color-secundary: #056ECF;
+    --color-blue-claro: #1282A2;
+    --color-write: #FEFCFB;
+    --color-bg-opacity: #06274E;
+    --color-footer: #02081F;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color-primary);
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-write);
+    border-radius: 10px;    
+}

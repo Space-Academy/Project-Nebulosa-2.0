@@ -5,6 +5,8 @@ import NavBar from "components/NavBar";
 import Starter from "components/Starter";
 import Trails from "components/Trails";
 
+import "./style.css"
+
 const Home = () => {
     return (
         <>
