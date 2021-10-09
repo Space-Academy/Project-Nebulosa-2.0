@@ -1,0 +1,550 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    :root {
+        --color-primary: #043668;
+        --color-secundary: #056ECF;
+        --color-blue-claro: #1282A2;
+        --color-write: #FEFCFB;
+        --color-bg-opacity: #06274E;
+        --color-footer: #02081F;
+        --color-navbar: #051C39;
+        --color-aside: #062448;
+
+        --menu-height: 65px;
+    }
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  background: linear-gradient(90deg, #04386B 0%, #0A1128 55.52%) ;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+/* nav ---------------------------------------------*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: var(--menu-height);
+    background: var(--color-navbar);
+    padding: 0 50px;
+    position: sticky;
+    top: 0;
+    
+    z-index: 99;
+}
+
+nav img {
+    height: 30px;
+}
+
+nav ul .menu-icons{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul .menu-icons a {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-write);
+    
+    text-decoration: none;
+    padding: 0 25px;
+    transition: all 300ms ease;
+}
+
+nav ul .menu-icons a svg {
+    display: none;
+}
+
+nav ul .menu-icons a:hover {
+    color: var(--color-secundary);
+    cursor: pointer;
+}
+
+nav ul .menu-icons span {
+    margin-left: 20px;
+    border-right: 3px solid var(--color-secundary);
+}
+
+nav ul .menu-icons svg {
+   height: 30px;
+   width: 30px;
+   color: var(--color-write);
+}
+
+nav ul .menu-icons svg:hover {
+    color: var(--color-secundary);
+    cursor: pointer;
+}
+
+/*  -----------------------------------------------*/
+
+main {
+    height: calc(100vh - var(--menu-height));
+    display: flex;
+}
+
+/* aside ---------------------------------------- */
+aside#bio-container {
+    height: calc(100vh - var(--menu-height));
+    background-color: var(--color-aside);
+    text-align: center;
+    width: 320px;
+    padding: 20px;
+    border-right: 5px solid white;
+}
+
+/* aside perfil --------------------------------- */
+
+aside .perfil {
+    display: flex;
+    height: 80px;
+    color: var(--color-write);
+}
+
+aside .perfil .content-perfil {
+    max-height: 80px;
+    text-align: left;
+    margin: 0 10px 0 15px;
+}
+
+aside .perfil .content-perfil h3 {
+    font-weight: 400;
+}
+
+aside .perfil .content-perfil p {
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-top: -4px;
+}
+
+aside .perfil .content-perfil p span {
+    font-weight: 800;
+    color: var(--color-secundary);
+}
+
+aside .perfil .content-perfil h5 {
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+aside .perfil .content-perfil .progress {
+    height: 8px;
+    background-color: var(--color-write);
+    position: relative;
+    border-radius: 0 30px 30px 0;
+    margin-top: 2px;
+}
+
+aside .perfil .content-perfil .progress .progress-bar{
+    position: absolute;
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+    background-color: var(--color-secundary);
+    animation: progress-animation 6s both;
+}
+
+@keyframes progress-animation{
+    0% { width: 0%; }
+    
+    100% { width: 70%}
+
+}
+
+aside .linha-perfil {
+    width: 270px;
+    height: 2px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+/* Top Five ----------------------------------- */
+
+aside .top-five h2{
+    font-size: 25px;
+    color: var(--color-write);
+    font-weight: 600;
+    text-align: left;
+}
+
+aside .top-five .top-placements {
+    display: flex;
+}
+
+aside .top-five .top-placements .img-top {
+    align-items: center;
+    display: flex;
+    color: var(--color-write);
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+aside .top-five .top-placements .img-top p {
+    margin-right: 1px;
+    font-weight: 500;
+}
+
+aside .top-five .top-placements .content-perfil {
+    color: var(--color-write);
+    margin-top: 15px;
+    text-align: left;
+}
+
+aside .top-five .top-placements .content-perfil h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+aside .top-five .top-placements .content-perfil h5 {
+    margin: 0;
+    font-weight: 400;
+}
+
+aside .top-five .top-placements .content-perfil .progress {
+    height: 8px;
+    background-color: var(--color-write);
+    position: relative;
+    border-radius: 0 30px 30px 0;
+    margin-top: 3px;
+    width: 19vh;
+}
+
+aside .top-five .top-placements .content-perfil .progress .progress-bar{
+    position: absolute;
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+    background-color: var(--color-secundary);
+    animation: progress-animation 6s both;
+}
+
+@keyframes progress-animation{
+    0% { width: 0%; }
+    
+    100% { width: 70%}
+}
+
+/* Right Content */
+
+section#content {
+    padding: 25px 0 0 120px;
+}
+
+section#content h1 {
+    color: var(--color-write);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+section#content .cards {
+    display: flex;
+    margin: 10px 0 20px 0;
+}
+
+/* card 01 -------------------------------------------------------- */
+section#content .cards .card-one {
+    background: linear-gradient(180deg, #001122 0%, #033260 65.23%);
+    width: 30vh;
+    height: 38vh;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-right: 20px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+
+    position: relative;
+    color: var(--color-write);
+}
+
+section#content .cards .card-one:hover {
+    top:-8px;
+    border-bottom: 8px solid var(--color-write);
+    transition: all 0.3s ease;
+}
+
+section#content .cards .card-one img {
+    width: 100px;
+    margin: 15px 0 20px 30px;
+}
+
+section#content .cards .card-one p {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+}
+
+/*  --------------------------------------------------------------- */
+
+/* card 02 -------------------------------------------------------- */
+section#content .cards .card-two {
+    background: linear-gradient(180deg, #001122 0%, #033260 65.23%);
+    width: 30vh;
+    height: 38vh;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-right: 20px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    cursor: pointer;
+
+
+    color: var(--color-write);
+}
+
+section#content .cards .card-two:hover {
+    top:-8px;
+    border-bottom: 8px solid var(--color-write);
+    transition: all 0.3s ease;
+}
+
+section#content .cards .card-two img {
+    width: 70px;
+    margin: 5px 0 15px 50px;
+}
+
+section#content .cards .card-two p {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+}
+/*  --------------------------------------------------------------- */
+
+/* card 02\3 -------------------------------------------------------- */
+section#content .cards .card-three {
+    background: linear-gradient(180deg, #001122 0%, #033260 65.23%);
+    width: 30vh;
+    height: 38vh;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-right: 20px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    cursor: pointer;
+
+
+    color: var(--color-write);
+}
+
+section#content .cards .card-three:hover {
+    top:-8px;
+    border-bottom: 8px solid var(--color-write);
+    transition: all 0.3s ease;
+}
+
+section#content .cards .card-three img {
+    width: 130px;
+    margin: 18px 0 50px 25px;
+}
+
+section#content .cards .card-three p {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+}
+
+
+/*  --------------------------------------------------------------- */
+
+section#content .cards .card-four {
+    background: linear-gradient(180deg, #001122 0%, #033260 65.23%);
+    width: 30vh;
+    height: 38vh;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+
+    color: var(--color-write);
+}
+
+section#content .cards .card-four:hover {
+    top:-8px;
+    border-bottom: 8px solid var(--color-write);
+    transition: all 0.3s ease;
+}
+
+section#content .cards .card-four img {
+    width: 105px;
+    margin: 18px 0 30px 40px;
+}
+
+section#content .cards .card-four p {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+}
+/*  --------------------------------------------------------------- */
+
+
+/* Cards Bottom --------------------------------------------------- */
+section#content .cards-bottom {
+    display: flex;
+}
+
+section#content .cards-bottom .card-visited {
+    background: linear-gradient(180deg, #001122 0%, #033260 65.23%);
+    width: 62.5vh;
+    height: 32vh;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-right: 20px;
+    color: var(--color-write);
+    padding: 20px;
+}
+
+section#content .cards-bottom .card-visited p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+section#content .cards-bottom .card-visited .content-visited {
+    display: flex;
+    justify-content: space-between;
+}
+
+section#content .cards-bottom .card-visited .content-visited .top-three {
+    display: flex;
+    align-items: center;
+}
+
+section#content .cards-bottom .card-visited .content-visited .top-three-profile {
+    align-items: center;
+    display: flex;
+    color: var(--color-write);
+    margin: 0 5px 7px 0;
+}
+
+section#content .cards-bottom .card-visited .content-visited .top-three-profile p {
+    font-size: 15px;
+    margin-top: 20%;
+}
+
+section#content .cards-bottom .card-visited .content-visited .top-three-profile img {
+    width: 50px;
+}
+
+section#content .cards-bottom .card-visited .content-visited .top-three-text h3{
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+
+section#content .cards-bottom .card-visited .content-visited .top-three-text p {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+section#content .cards-bottom .card-visited .content-visited .top-three-text span {
+    color: var(--color-secundary);
+    font-size: 14px;
+    font-weight: 900
+}
+
+/*  --------------------------------------------------------------- */
+
+/*  Card Stars ---------------------------------------------------- */
+section#content .cards-bottom .card-stars {
+    background: linear-gradient(180deg, #001122 0%, #033260 65.23%);
+    width: 62.5vh;
+    height: 30vh;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+section#content .cards-bottom {
+    display: flex;
+}
+
+section#content .cards-bottom .card-stars {
+    background: linear-gradient(180deg, #001122 0%, #033260 65.23%);
+    width: 62.5vh;
+    height: 32vh;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-right: 20px;
+    color: var(--color-write);
+    padding: 20px;
+}
+
+section#content .cards-bottom .card-stars p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+section#content .cards-bottom .card-stars .content-stars {
+    display: flex;
+    justify-content: space-between;
+}
+
+section#content .cards-bottom .card-stars .content-stars .top-three {
+    display: flex;
+    align-items: center;
+}
+
+section#content .cards-bottom .card-stars .content-stars .top-three-profile {
+    align-items: center;
+    display: flex;
+    color: var(--color-write);
+    margin: 0 5px 7px 0;
+}
+
+section#content .cards-bottom .card-stars .content-stars .top-three-profile p {
+    font-size: 15px;
+    margin-top: 20%;
+}
+
+section#content .cards-bottom .card-stars .content-stars .top-three-profile img {
+    width: 50px;
+}
+
+section#content .cards-bottom .card-stars .content-stars .top-three-text h3{
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+
+section#content .cards-bottom .card-stars .content-stars .top-three-text .star-cards svg {
+    width: 1.2em;
+    color: var(--color-write);
+}
+
+section#content .cards-bottom .card-stars .content-stars .top-three-text .star-cards span svg {
+    width: 1.4em;
+    color: var(--color-secundary);
+}
+
+section#content .cards-bottom .card-stars .content-stars .top-three-text span {
+    color: var(--color-secundary);
+    font-size: 14px;
+    font-weight: 900
+}

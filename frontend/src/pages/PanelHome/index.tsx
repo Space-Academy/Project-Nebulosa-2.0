@@ -1,13 +1,19 @@
-import NavBarPanel from "components/NavbarPanel"
-import AsideSide from "components/AsideSide"
+import NavBarPanel from "components/NavbarPanel";
+import AsideSide from "components/AsideSide";
+import AccessCardsMenu from "components/AccessCardsMenu";
 
 const PanelHome = () => {
-    return (
+  return (
     <>
-    <NavBarPanel />
-    <AsideSide />
+      <NavBarPanel />
+      <main>
+        <AsideSide />
+        <section id="content">
+          <AccessCardsMenu />
+        </section>
+      </main>
     </>
-    )
-}
+  );
+};
 
-export default PanelHome
+export default PanelHome;
