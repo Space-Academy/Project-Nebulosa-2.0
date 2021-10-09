@@ -1,0 +1,171 @@
+
+section#content {
+    padding: 30px 80px;
+    width: 100%;
+}
+
+section#content .perfil-foto {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+section#content .perfil-foto img {
+    width: 15%;
+    margin-right: 50px;
+}
+
+section#content .perfil-foto .select-image {
+    margin-top: 15px;
+}
+
+section#content .perfil-foto .select-image p {
+    font-size: 1.2em;
+    color: var(--color-write);
+}
+
+section#content .perfil-foto .select-image input[type="file"] {
+    display: none;
+}
+
+section#content .perfil-foto .select-image label {
+    color: var(--color-write);
+    height: 50px;
+    width: 600px;
+    background-color: #305076;
+    border: 2px #305076 solid;
+    position: absolute;
+    font-size: 20px;
+    display: flex;
+    border-radius: 10px;
+    padding-left: 30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+section#content .perfil-foto .select-image label:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px var(--color-write) solid;
+}
+
+section#content .perfil-foto .select-image label svg {
+    margin-right: 20px;
+}
+
+/* Edition input name*/
+section#content .form-container {
+    width: 1000px;
+}
+
+section#content .form-container .edit-name {
+    margin-bottom: 70px;
+}
+
+section#content .form-container .edit-name p {
+    font-weight: 400;
+    font-size: 1.1em;
+    color: var(--color-write);
+    margin-bottom: 3px;
+}
+
+section#content .form-container .edit-name input {
+    height: 50px;
+    width: 1000px;
+    background-color: #305076;
+    position: absolute;
+    font-size: 1em;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+}
+
+section#content .form-container .edit-name input::placeholder {
+    color: var(--color-write);
+}
+
+/* Edition input email*/
+
+
+section#content .form-container .edit-mail {
+margin-bottom: 70px;
+}
+
+section#content .form-container .edit-mail p {
+    font-weight: 400;
+    font-size: 1.1em;
+    color: var(--color-write);
+    margin-bottom: 3px;
+}
+
+section#content .form-container .edit-mail input {
+    height: 50px;
+    width: 1000px;
+    background-color: #305076;
+    position: absolute;
+    font-size: 1em;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+}
+
+section#content .form-container .edit-mail input::placeholder {
+    color: var(--color-write);
+}
+
+/* Edition input password*/
+section#content .form-container .edit-password {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+section#content .form-container .edit-password .password {
+    margin-right: 465px;
+}
+
+section#content .form-container .edit-password p {
+    font-weight: 400;
+    font-size: 1.1em;
+    color: var(--color-write);
+    margin-bottom: 3px
+}
+
+section#content .form-container .edit-password input {
+    height: 50px;
+    width: 480px;
+    background-color: #305076;
+    position: absolute;
+    font-size: 1em;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+}
+
+section#content .form-container .edit-password input::placeholder {
+    color: var(--color-write);
+}
+
+/* Edition button */
+section#content .form-container .btn-edition {
+    display: flex;
+    justify-content: right;
+}
+
+section#content .form-container .btn-edition input {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: var(--color-write);
+    background-color: var(--color-bg-opacity);
+    border: 1px solid var(--color-write)
+}
+
+section#content .form-container .btn-edition input:hover {
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-write)
+}
+
+section#content .form-container .btn-edition input:nth-child(1) {
+    margin-right: 30px;
+}

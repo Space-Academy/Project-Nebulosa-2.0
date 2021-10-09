@@ -8,31 +8,40 @@ import ImgGraphics from "assets/IMG/grafics-panel-home.png";
 
 import "./style.css";
 import { FiStar } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const AccessCardsMenu = () => {
   return (
     <>
       <h1>Acelere seu aprendizado com a gente!</h1>
       <div className="cards">
-        <div className="card-one">
-          <img src={ImgSearch} alt="Imagem de foguete" />
-          <p>ENCONTRAR SUA TRILHA</p>
-        </div>
+        <Link to="/">
+          <div className="card-one">
+            <img src={ImgSearch} alt="Imagem de foguete" />
+            <p>ENCONTRAR SUA TRILHA</p>
+          </div>
+        </Link>
 
-        <div className="card-two">
-          <img src={ImgContinue} alt="Imagem do astronaut" />
-          <p>CONTINUAR MINHA TRILHA</p>
-        </div>
+        <Link to="/">
+          <div className="card-two">
+            <img src={ImgContinue} alt="Imagem do astronaut" />
+            <p>CONTINUAR MINHA TRILHA</p>
+          </div>
+        </Link>
 
-        <div className="card-three">
-          <img src={ImgCreate} alt="Imagem de planeta" />
-          <p>CRIAR UMA TRILHA</p>
-        </div>
+        <Link to="/">
+          <div className="card-three">
+            <img src={ImgCreate} alt="Imagem de planeta" />
+            <p>CRIAR UMA TRILHA</p>
+          </div>
+        </Link>
 
-        <div className="card-four">
-          <img src={ImgReport} alt="Imagem de bell" />
-          <p>REPORTAR UMA TRILHA</p>
-        </div>
+        <Link to="/">
+          <div className="card-four">
+            <img src={ImgReport} alt="Imagem de bell" />
+            <p>REPORTAR UMA TRILHA</p>
+          </div>
+        </Link>
       </div>
 
       {/*Cards Bottom*/}
