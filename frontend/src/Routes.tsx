@@ -7,6 +7,8 @@ import Profile from "pages/Profile";
 import EditProfile from "pages/EditProfile";
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import FindTrail from "pages/FindTrail";
+import TrailContent from "pages/TrailContent";
 
 const Routes = () => {
   return (
@@ -32,6 +34,12 @@ const Routes = () => {
         </Route>
         <Route path="/EditProfile" exact>
           <EditProfile />
+        </Route>
+        <Route path="/FindTrail" exact>
+          <FindTrail />
+        </Route>
+        <Route path="/trilha-bolsa-de-valores" exact>
+          <TrailContent />
         </Route>
       </Switch>
     </BrowserRouter>

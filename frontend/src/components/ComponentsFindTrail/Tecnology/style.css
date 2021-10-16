@@ -1,0 +1,18 @@
+.tecnologia {
+    margin-bottom: 100px;
+}
+
+.tecnologia h1 {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.tecnologia .trilhas-cards {
+    display: flex;
+    padding: 0 50px;
+    margin-bottom: 30px;
+
+    align-items: center;
+    justify-content: space-between;
+}

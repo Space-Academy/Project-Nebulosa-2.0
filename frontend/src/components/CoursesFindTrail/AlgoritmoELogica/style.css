@@ -1,0 +1,58 @@
+.algoritmo-cards {
+    position: relative;
+    width: 45vh;
+    height: 60vh;
+    border-radius: 30px;
+    border: 2px solid var(--color-write);
+    background-color: var(--color-navbar );
+}
+
+.algoritmo-cards img {
+    margin: auto;
+	position: absolute;
+	top: 5.5vh; left: 0; right: 0;
+}
+
+.algoritmo-cards .text-content {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0 0 30px 30px;
+    color: #000C17;
+    background: #FEFCFB;
+}
+
+.algoritmo-cards .text-content h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 100%;
+}
+
+.algoritmo-cards .text-content p {
+    line-height: 110%;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.algoritmo-cards .text-content button {
+    cursor: pointer;
+    color: var(--color-write);
+    width: 35vh;
+    height: 5vh;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(92.27deg, #043667 0%, #000C17 100%);
+    transition: all 0.3s ease;
+    margin-bottom: 5px;
+}
+
+.algoritmo-cards .text-content button:hover {
+    letter-spacing: 0.8px;
+    background: none;
+    border: 2px solid var(--color-navbar);
+    color: var(--color-navbar);
+    font-size: 1em;
+    font-weight: 600;
+}

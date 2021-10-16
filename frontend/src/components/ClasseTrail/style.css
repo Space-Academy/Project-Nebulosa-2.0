@@ -1,0 +1,52 @@
+.classes p {
+    font-size: 1.3em;
+    line-height: 120%;
+    font-weight: 300;
+    color: var(--color-write);
+    margin-bottom: 30px;
+}
+
+.classes h2 {
+    color: var(--color-write);
+    font-size: 2.5em;
+}
+
+.classes h2 span {
+    color: var(--color-secundary);
+    font-weight: 700;
+}
+
+.classes div.video {
+    border: 2px solid var(--color-write);
+    background-color: var(--color-aside);
+    margin: 0px 300px 0px 300px;
+    padding: 1px;
+    padding-bottom: 35%;
+    border-radius: 15px;
+
+    position: relative;
+    margin-bottom: 10vh;
+}
+
+.classes div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button button {
+    width: 40vh;
+    height: 40px;
+    color: var(--color-write);
+    background: var(--color-primary);
+    border: 2px solid var(--color-write);
+    border-radius: 10px;
+    cursor: pointer;
+}

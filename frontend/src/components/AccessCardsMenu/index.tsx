@@ -15,7 +15,7 @@ const AccessCardsMenu = () => {
     <>
       <h1>Acelere seu aprendizado com a gente!</h1>
       <div className="cards">
-        <Link to="/">
+        <Link to="/FindTrail">
           <div className="card-one">
             <img src={ImgSearch} alt="Imagem de foguete" />
             <p>ENCONTRAR SUA TRILHA</p>
